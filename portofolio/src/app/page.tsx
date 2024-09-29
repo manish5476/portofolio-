@@ -1,6 +1,12 @@
-import Image from "next/image";
-import Portofolio from "./component/portofolio";
+import React from 'react'
+import StylishPortfolio from './component/portofolio'
 
-export default function Home() {
-  return <Portofolio></Portofolio>;
+const Home = () => {
+  return (
+    <div>
+      <StylishPortfolio/>
+    </div>
+  )
 }
+
+export default Home
