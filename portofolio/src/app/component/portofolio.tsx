@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -17,7 +16,7 @@ import {
   ExternalLink,
 } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 const skills = [
   {
@@ -102,21 +101,21 @@ const projects = [
     title: "AI-Powered Chat Application",
     description:
       "A real-time chat app with AI-driven conversation suggestions and sentiment analysis.",
-    image: "/placeholder.svg?height=200&width=300&text=AI+Chat+App",
+    image: "/images/image.png",
     link: "#",
   },
   {
     title: "Blockchain Voting System",
     description:
       "A secure and transparent voting system built on blockchain technology for organizational elections.",
-    image: "/placeholder.svg?height=200&width=300&text=Blockchain+Voting",
+    image: "/images/image.png",
     link: "#",
   },
   {
     title: "IoT Smart Home Hub",
     description:
       "A centralized IoT platform for managing and automating various smart home devices and sensors.",
-    image: "/placeholder.svg?height=200&width=300&text=IoT+Smart+Home",
+    image: "/images/image.png",
     link: "#",
   },
 ];
@@ -317,7 +316,7 @@ export default function StylishPortfolio() {
             </motion.div>
             <div className="absolute inset-0 z-0">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900 dark:to-purple-900 opacity-20"></div>
-              <div className="absolute inset-0 bg-[url('/placeholder.svg?height=1080&width=1920')] bg-cover bg-center opacity-10"></div>
+              <div className="absolute inset-0 bg-[url('/images/image.png')] bg-cover bg-center opacity-10"></div>
             </div>
           </section>
 
@@ -560,7 +559,7 @@ export default function StylishPortfolio() {
                         </p>
                       </div>
                       <Image
-                        src="/placeholder.svg?height=100&width=100&text=MS"
+                        src="/images/image.png"
                         alt="Manish Singh"
                         width={100}
                         height={100}
