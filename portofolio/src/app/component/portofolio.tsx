@@ -102,21 +102,21 @@ const projects = [
     description:
       "A real-time chat app with AI-driven conversation suggestions and sentiment analysis.",
     image: "/images/image.png",
-    link: "#",
+    link: "https://linkedin.com/in/manishsingh",
   },
   {
     title: "Blockchain Voting System",
     description:
       "A secure and transparent voting system built on blockchain technology for organizational elections.",
     image: "/images/image.png",
-    link: "#",
+    link: "https://linkedin.com/in/manishsingh",
   },
   {
     title: "IoT Smart Home Hub",
     description:
       "A centralized IoT platform for managing and automating various smart home devices and sensors.",
     image: "/images/image.png",
-    link: "#",
+    link: "https://linkedin.com/in/manishsingh",
   },
 ];
 
