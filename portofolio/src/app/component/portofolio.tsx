@@ -316,7 +316,7 @@ export default function StylishPortfolio() {
             </motion.div>
             <div className="absolute inset-0 z-0">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900 dark:to-purple-900 opacity-20"></div>
-              <div className="absolute inset-0 bg-[url('/images/image.png')] bg-cover bg-center opacity-10"></div>
+              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1595878715977-2e8f8df18ea8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center opacity-10"></div>
             </div>
           </section>
 
@@ -559,7 +559,7 @@ export default function StylishPortfolio() {
                         </p>
                       </div>
                       <Image
-                        src="/images/image.png"
+                        src="/images/manish.jpg"
                         alt="Manish Singh"
                         width={100}
                         height={100}
